@@ -1,6 +1,6 @@
 # Compile
 
 ## Make
+ - [LLVMgold](https://github.com/b04902036/Problems/tree/master/compile/LLVMgold)
+ - [texinfo](https://github.com/b04902036/Problems/tree/master/compile/texinfo)
 
-### texinfo
- - `sudo apt install libncurses5-dev libncursesw5-dev`
