@@ -6,4 +6,11 @@ LLVM 8.0
  - `cd binutils && mkdir build && cd build`
  - `../configure --enable-gold --enable-plugins --disable-werror`
  - `make all-gold`
+ - go download LLVM source code (clang included)
+ - `cd /path to llvm/ && mkdir build && cd build`
+ - `cmake -DLLVM_BINUTILS_INCDIR=/path/to/binutils/include`
+	- note that `plugin-api.h` should be in this path
+ - make
+ - sudo make install 
+ - now compile LLVM, run `cmake` with `-DLLVM_BINUTILS_INCDIR=/path/to/binutils/include`
  - [official guide](https://bcain-llvm.readthedocs.io/projects/llvm/en/latest/GoldPlugin/)
