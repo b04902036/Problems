@@ -14,3 +14,4 @@ LLVM 8.0
  - sudo make install 
  - now compile LLVM, run `cmake` with `-DLLVM_BINUTILS_INCDIR=/path/to/binutils/include`
  - [official guide](https://bcain-llvm.readthedocs.io/projects/llvm/en/latest/GoldPlugin/)
+ - [unofficial guide](https://techoverflow.net/2013/02/17/how-to-compile-and-install-llvm-gold-plugin-llvmgold-so-on-linux/)
