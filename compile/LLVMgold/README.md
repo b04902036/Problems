@@ -1,6 +1,6 @@
 # LLVMgold plugin
 
-LLVM 8.0
+LLVM 9.0
  - make sure you have `makeinfo` of version 4.8. If not, go install texinfo-4.8
  - `git clone --depth 1 git://sourceware.org/git/binutils-gdb.git binutils`
  - `cd binutils && mkdir build && cd build`
